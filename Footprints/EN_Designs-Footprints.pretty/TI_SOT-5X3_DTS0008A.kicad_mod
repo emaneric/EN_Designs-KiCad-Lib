@@ -1,0 +1,199 @@
+(footprint "TI_SOT-5X3_DTS0008A"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d09d6c67-d814-4773-9bcf-4d6a6143b66e")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TI_SOT-5X3_DTS0008A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b6599923-e870-4fa0-a986-cde292e445a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b1bbda5-d943-4181-93d0-0045525af2a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f117c4bd-81d8-46c0-81eb-0205542c3ed1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1fc9c15-3f35-4a81-91a2-806a6109ce22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.2 -1.1)
+		(end 0.65 -1.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "97da31bf-765f-42a8-b30f-78227dbed081")
+	)
+	(fp_line
+		(start -0.65 1.1)
+		(end 0.65 1.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f0b407a4-76a9-495c-8870-7a8934ece5df")
+	)
+	(fp_rect
+		(start -1.5 -1.3)
+		(end 1.5 1.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "03930328-5c83-4b88-a673-0243587cd1d7")
+	)
+	(fp_rect
+		(start -0.65 -1.1)
+		(end 0.65 1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "d0baba19-add1-462b-ab33-41bf35666033")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9149bcde-d1b1-403d-aaca-980f0ce857bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.86 -0.75)
+		(size 0.72 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1666666667)
+		(thermal_bridge_angle 45)
+		(uuid "19dba6a4-43a5-4e3c-8daf-f0bf7ea04cd4")
+	)
+	(pad "2" smd roundrect
+		(at -0.86 -0.25)
+		(size 0.72 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1666666667)
+		(thermal_bridge_angle 45)
+		(uuid "2cb78f7a-b495-4a04-aa9f-f854ef9ac256")
+	)
+	(pad "3" smd roundrect
+		(at -0.86 0.25)
+		(size 0.72 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1666666667)
+		(thermal_bridge_angle 45)
+		(uuid "f388d288-4ea2-49a9-a988-2fd03e5078d8")
+	)
+	(pad "4" smd roundrect
+		(at -0.86 0.75)
+		(size 0.72 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1666666667)
+		(thermal_bridge_angle 45)
+		(uuid "6ab34776-aa04-45ae-9c90-79cdf63b8906")
+	)
+	(pad "5" smd roundrect
+		(at 0.86 0.75)
+		(size 0.72 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1666666667)
+		(thermal_bridge_angle 45)
+		(uuid "bb1f2b61-dcc0-484f-a470-b40b1a11646b")
+	)
+	(pad "6" smd roundrect
+		(at 0.86 0.25)
+		(size 0.72 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1666666667)
+		(thermal_bridge_angle 45)
+		(uuid "b0daaf7f-9d68-4707-98fc-2db6ed0fa97d")
+	)
+	(pad "7" smd roundrect
+		(at 0.86 -0.25)
+		(size 0.72 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1666666667)
+		(thermal_bridge_angle 45)
+		(uuid "1d3e113c-adee-49c4-ab4b-6624184b6af4")
+	)
+	(pad "8" smd roundrect
+		(at 0.86 -0.75)
+		(size 0.72 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1666666667)
+		(thermal_bridge_angle 45)
+		(uuid "34297883-e105-41db-83f0-92391ca06a84")
+	)
+	(model "/home/eric/GoogleDrive/Electronics/KiCad/Libraries/3D Models/sensors/OPT3004DTSR.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
