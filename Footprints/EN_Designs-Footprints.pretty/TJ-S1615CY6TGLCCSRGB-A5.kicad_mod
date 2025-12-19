@@ -1,0 +1,147 @@
+(footprint "TJ-S1615CY6TGLCCSRGB-A5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "RGB,LED")
+	(property "Reference" "D"
+		(at 0 -1.55 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f8965417-f4b7-4fee-821d-96531280e001")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TJ-S1615CY6TGLCCSRGB-A5"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "137dd571-5652-4a60-8c73-a4889feadd05")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eee7a40b-7018-4604-9646-a9d3034b8d59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05091d53-325c-48ca-ab9b-37e046dbf110")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard
+		dnp
+	)
+	(fp_circle
+		(center -1.65 0.525)
+		(end -1.55 0.525)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2a5f16ac-8f9e-430e-9e49-2401472dfbc2")
+	)
+	(fp_rect
+		(start -0.8 -0.75)
+		(end 0.8 0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ec46705b-0b73-49cd-b216-031a27e9498a")
+	)
+	(fp_poly
+		(pts
+			(xy -0.5 -0.15) (xy -0.7 0) (xy -0.5 0.15)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "1a784305-8a17-4e2d-abc0-ac679901348c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5d88e6ec-fe15-496e-adb7-156ca1bc2005")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.875 0.525)
+		(size 0.85 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "4e140fd4-4a89-48cb-bf60-979d7de839db")
+	)
+	(pad "2" smd roundrect
+		(at 0.875 0.525)
+		(size 0.85 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "6abdc064-ac27-4c72-a224-5376b1313785")
+	)
+	(pad "3" smd roundrect
+		(at 0.875 -0.525)
+		(size 0.85 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "c1032005-5c65-4922-94a6-18cee9ef64f4")
+	)
+	(pad "4" smd roundrect
+		(at -0.875 -0.525)
+		(size 0.85 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "61c206a3-1a62-47b3-9249-1c9ce4f69212")
+	)
+	(embedded_fonts no)
+	(model "${MY_3D_MODEL_DIR}/leds/TJ-S1615CY6TGLCCSRGB-A5.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

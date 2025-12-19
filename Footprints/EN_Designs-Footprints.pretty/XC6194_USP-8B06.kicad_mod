@@ -1,0 +1,231 @@
+(footprint "XC6194_USP-8B06"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "XC6194BANNER-G")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0 -3.2 0)
+		(layer "F.SilkS")
+		(uuid "2a105515-f2fd-4a87-8704-b7d30bea6f1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "XC6194_USP-8B06"
+		(at 0 4.6 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6b2ff2ad-dcd9-4fc3-8388-81d505e22903")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5108b6c-914d-455d-bea5-44424ea627fd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13a483c0-4211-4743-bce6-d997f2d8766b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "359dd0e9-7993-48a4-8060-765ad216026c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.75 -0.43)
+		(end -0.4 0.43)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "293515c6-875d-484f-89cf-cf24d7674a59")
+	)
+	(fp_rect
+		(start -0.2 -0.43)
+		(end 0.15 0.43)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "e4a5d96f-b3a7-43af-b2f6-9d38316f9987")
+	)
+	(fp_rect
+		(start 0.4 -0.43)
+		(end 0.75 0.43)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "35557ac6-8946-4948-ab3d-9725d89e7ebc")
+	)
+	(fp_line
+		(start -1.1 -1)
+		(end -1.1 1)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8ab11449-247c-4fa4-946d-00c59d300109")
+	)
+	(fp_line
+		(start 1.1 -1)
+		(end 1.1 1)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dd0ef9ff-92ab-4be8-a1b0-0b626d1e2e47")
+	)
+	(fp_circle
+		(center -0.75 1.3)
+		(end -0.65 1.3)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "fd03799c-1adb-4d3c-9c8a-93a845d05b2a")
+	)
+	(fp_rect
+		(start -1.3 -1.3)
+		(end 1.3 1.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "5bcfed6e-4972-4e5b-8224-c6ad6aad0623")
+	)
+	(fp_rect
+		(start -1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "11853f26-6a84-4a05-b319-f293be3e13eb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b0397c1e-5841-4693-bd08-7ebfb91d86e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.75 0.85 90)
+		(size 0.2 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3fa32b2f-0948-4d43-896b-b56284c8d938")
+	)
+	(pad "2" smd rect
+		(at -0.25 0.85 90)
+		(size 0.2 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d629523a-c9a9-4efc-a09c-46903133db72")
+	)
+	(pad "3" smd rect
+		(at 0.25 0.85 90)
+		(size 0.2 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "85d334bf-5c9b-454f-97e6-8ae3f5e245c7")
+	)
+	(pad "4" smd rect
+		(at 0.75 0.85 90)
+		(size 0.2 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f3a8ed59-8bf1-413e-9725-bc84d61e7f55")
+	)
+	(pad "5" smd rect
+		(at 0.75 -0.85 90)
+		(size 0.2 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c40e7825-2b5c-48b5-8abe-145e47516bf4")
+	)
+	(pad "6" smd rect
+		(at 0.25 -0.85 90)
+		(size 0.2 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f025e716-0917-487d-998d-f02a3d92b9ab")
+	)
+	(pad "7" smd rect
+		(at -0.25 -0.85 90)
+		(size 0.2 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "035e5c75-63b3-4379-b7e6-cbc0c820e09e")
+	)
+	(pad "8" smd rect
+		(at -0.75 -0.85 90)
+		(size 0.2 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "27dc3c99-a3d6-4d67-8ed1-ae6a05ce67f8")
+	)
+	(pad "9" smd rect
+		(at 0 0 90)
+		(size 1.04 1.8)
+		(layers "F.Cu" "F.Mask")
+		(uuid "4fe70e07-fedb-411b-891b-9f97c2d6b9cf")
+	)
+	(model "XC6194BANNER-G.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
